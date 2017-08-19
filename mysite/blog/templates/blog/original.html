@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+
+<head>
+  <title>Rohith Sai Krishna</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="{% static 'css/nav.css' %}">
+  <link rel="stylesheet" href="{% static 'css/linkcss.css' %}">
+  <link rel="stylesheet" href="{% static 'css/treestyle.css' %}">
+  <link rel="stylesheet" href="C:\Users\ruska\Desktop\my_website\mysite\blog\static\css\nav.css">
+  <link rel="stylesheet" href="C:\Users\ruska\Desktop\my_website\mysite\blog\static\css\linkcss.css">
+  <link rel="stylesheet" href="C:\Users\ruska\Desktop\my_website\mysite\blog\static\css\treestyle.css">
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab+Highlight" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" rel="stylesheet">
+<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/zpenlikvyuguknn/favicon.ico?dl=0" type="image/x-icon">
+<link rel="icon" href="https://dl.dropboxusercontent.com/s/zpenlikvyuguknn/favicon.ico?dl=0" type="image/x-icon">
+</head>
+
+
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                 </button>
+              </div>
+              <div>
+                <div class="nav navbar-nav navbar-right" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li><a class="navbar-brand" href="#section0">Home</a></li>
+                    <li><a href="#section1">Profile</a></li>
+                    <li><a href="#section2">Experience</a></li>
+                    <li><a href="#section3">Skills</a></li>
+                    <li><a href="#section42">Contact</a></li>
+                  </div>
+                  </ul>
+                  <div class="leftnav">
+                  <div class="nav navbar-nav navbar-left" >
+                    <ul class="nav navbar-nav">
+                      {% if user.is_authenticated %}
+                      <li><a href="{% url 'post_list' %}">Blog</a></li>
+                      <li><a href="{% url 'post_new' %}" >New Post</a></li>
+                      <li><a href="{% url 'post_draft_list' %}">Drafts</a></li>
+                      <li><a href="{% url 'logout' %}" >Log out</a></li>
+                      <li><a >Welcome: {{ user.username }}</a></li>
+                      {% else %}
+                    <li><a href="{% url 'post_list' %}">Blog</a></li>
+                     <li><a href="{% url 'login' %}" ><span><i class="fa fa-user-secret fa-1x" aria-hidden="true"></i></span></a></li>
+
+                      {% endif %}
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+      </nav>
+
+          <div id="section0">
+            <div  class="homepage-hero-module">
+                <div class="video-container">
+                    <div class="filter"></div>
+                    <video autoplay loop class="fillWidth">
+
+                      <source src="https://dl.dropboxusercontent.com/s/wb31m0jf7ah52dj/Aloha-Mundo.mp4?dl=0" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                      <source src="https://dl.dropboxusercontent.com/s/kxp4zi24i9s1j79/Aloha-Mundo.webm?dl=0" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    </video>
+                    <div class="poster hidden">
+                        <img src="https://dl.dropboxusercontent.com/s/h02rlzfip9fg6j3/Aloha-Mundo.jpg?dl=0" alt="">
+                    </div>
+                </div>
+                <div class="overlay-desc">
+                  <h1>Hi! I'm Rohith. <br><br> Data Analyst, Developer & Engineer</h1>
+                </div>
+            </div>
+          </div>
+
+
+
+<div id="section1" class="container-fluid">
+        <div class="section1_page">
+          <div class="profile_section1">
+            <h1>Profile</h1>
+          </div>
+
+          <div class="profile_2">
+          <ul>
+            <li>
+              <div>
+                <h2>About me</h2>
+                <p>I'm a Data savvy Developer with a passion for Data Analytics
+                  and Web development. I love to build things from scratch and solve complex problems.</p>
+              </div>
+            </li>
+          </div>
+
+            <li>
+            <div class='dp'>
+              <img src="https://dl.dropboxusercontent.com/s/d6805y9qhrhb21v/rohith_profile.JPG?dl=0" alt="">
+            </div>
+          </li>
+          <div class="profile_3">
+          <li>
+          <div class=detail_section>
+            <h2>Details</h2>
+
+              <p> <strong>Name</strong><br> Rohith Sai Krishna <br><strong>Age</strong> <br>24 <br><strong>Location</strong><br>
+                 <i class="fa fa-map-marker" aria-hidden="true"></i> New York, New York </p>
+
+                  </div>
+                </li>
+              </div>
+              </ul>
+            </div>
+
+
+    <div id="section2" class="container-fluid">
+
+               <section class="intro">
+                <div class="container">
+                  <h1>Experience <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></h1>
+                </div>
+              </section>
+               <div class="bg-img">
+              <section class="timeline">
+
+                <ul>
+
+                  <li>
+
+                    <div>
+                      <h3>Data Analyst <i class="fa fa-briefcase" aria-hidden="true"></i></h3>
+                      <h3>Idaciti, Inc. </h3>
+
+                      <p>As a Data Analyst, I worked with the business and developement teams to plan
+                      and solve complex problems.I unraveled large financial data using Data Mining techniques
+                      to identify KPI's, patterns, anamolies, etc. and visualize the complete story.</p>
+                      <time> May 2016-May 2017</time>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+               <h3>M.S Management Information Systems <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+                      <h3>Fairleigh Dickinson University</h3>
+                      <p> I completed my master's degree in information systems with a specialization in Big data analytics. My coursework included courses like Hadoop,
+                      Database systems, Machine Learning, Statistical programming, Software Engineering, etc and involved completing a wide array of projects.</p>
+                      <time>August 2015-June 2017</time>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                         <h3>Business Analyst Intern <i class="fa fa-briefcase" aria-hidden="true"></i></h3>
+                      <h3>Value Core Consulting</h3>
+                      <p> As a Business Analyst Intern, I supported the Analytics team in documenting requirements, retrive data from the database by writing SQL scripts,
+                        perform data analysis and create insightful reports using Tableau to communicate the results effectively.
+                        I assisted the development team with my HTML, CSS and javascript skills to design the interface
+                        of a learning management system called Markmeter.</p>
+                      <time>October 2014-July 2015</time>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                <h3>B.E Electrical & Electronics Engineering <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+                      <h3>Anna University</h3>
+                      <p>I completed my Bachelor's degree in Engineering with a focus on Electrical & Electronics. Apart from my core requirements,
+                      I also completed courses like Data structures and algorithms, Object oriented programming, Java, Operating systems, Computer Networks, etc.
+                       I graduated in 2015 having gained a strong foundation in Mathematics, Engineering and Computer Science.</p>
+                      <time>August 2011-May 2015</time>
+                    </div>
+                  </li>
+
+                </ul>
+              </section>
+          </div>
+              </div>
+
+
+
+
+
+    <div  id="section3" class="container-fluid">
+            <div class="bg-imgsec3">
+
+
+            <ul id='section3_id_left'style="float:left;">
+              <div>
+
+              <li><i class="fa fa-line-chart" aria-hidden="true"><br><br>Data Mining & Visualization</i></li><br>
+              <li><i class="fa fa-cloud" aria-hidden="true"><br><br>Big Data Engineering</i></li><br>
+              <li><i class="fa fa-code" aria-hidden="true"><br><br>Front-end Development</i></li><br>
+              <li><i class="fa fa-database" aria-hidden="true"><br><br>Databases and Back-end development</i></li>
+
+
+              </div>
+            </ul>
+            <ul id='section3_id_center'style="float:center;">
+
+              <div>
+                <li>
+                  <h3><i class="fa fa-snowflake-o" aria-hidden="true"></i> Summary</h3><br>
+                <p> I write clean and re-usable code and possess top-notch interpersonal skills. I have a strong math background
+                    and a good understanding of  Data science, Algorithms, Analytics tools, Big data technologies and Full stack web-development.
+                    My experience has allowed me to do a lot of independent research to find solutions for business problems,
+                     communicate effectively with different teams to understand business requirements
+                      and also work on solutions to translate business requirements.</p>
+
+                </li>
+
+              </div>
+            </ul>
+            <ul id='section3_id_right'style="float:right;">
+              <div>
+
+              <li><i class="fa fa-bolt" aria-hidden="true"></i> Super-powers<br><br>Python, Django, Pandas, sklearn, numpy, Matplotlib
+              MySQL, MongoDB, Hbase, Cassandra,HTML5, CSS3, Javascript, LESS, Jquery,
+              Hadoop, Hive, Pig, AWS, Git
+              C++, Tableau </li>
+
+              </div>
+            </ul>
+          </div>
+          </div>
+
+
+    <div id="section42" class="container-fluid">
+          <div class="contact">
+            <h1><br><br><br><br>Contact</h1><br><br>
+            <p>I'm always looking for new opportunities.You can reach me at <br>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a  href="mailto:ruskay.rsk@gmail.com">ruskay.rsk@gmail.com</a> </p>
+              <p> or just connect with me <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+
+          </div>
+          <ul >
+
+
+            <li class="social_ul" >
+              <div class="social-btns">
+                <a  target="_blank"class="btn facebook" href="https://www.facebook.com/rohithsaikrishna">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" class="btn twitter" href="https://twitter.com/ruskay7">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a target="_blank"class="btn linkedin" href="https://www.linkedin.com/in/rohithsaikrishna/">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a target="_blank"class="btn quora" href="https://www.quora.com/profile/Rohith-Sai-Krishna">
+                  <i class="fa fa-quora" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" class="btn github" href="https://github.com/ruskay7">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a target="_blank"class="btn instagram" href="https://www.instagram.com/ruskay7/">
+                  <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            </li>
+
+          </ul>
+
+
+
+
+
+    </div>
+
+
+
+</div>
+<footer>Designed and developed by Rohith in New York city<i class="fa fa-smile-o" aria-hidden="true"></i></footer>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="{% static 'js/linkjs.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/tree.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/nav.js' %}"></script>
+
+<script type="text/javascript" src="C:\Users\ruska\Desktop\my_website\mysite\blog\static\js\linkjs.js"></script>
+<script type="text/javascript" src="C:\Users\ruska\Desktop\my_website\mysite\blog\static\js\tree.js"></script>
+<script type="text/javascript" src="C:\Users\ruska\Desktop\my_website\mysite\blog\static\js\nav.js"></script>
+
+</body>
+</html>
