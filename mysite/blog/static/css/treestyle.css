@@ -90,7 +90,7 @@ margin:0;
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 400px;
+  width: 25%;
   padding: 15px;
   background: #fa8a29;
 }
@@ -102,6 +102,7 @@ margin:0;
   width: 0;
   height: 0;
   border-style: solid;
+  width: 25%;
 }
 
 .timeline ul li:nth-child(odd) div {
@@ -191,6 +192,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent #fa8a29 transparent transparent;
   }
 }
