@@ -62,8 +62,6 @@
                     <ul class="nav navbar-nav">
                       {% if user.is_authenticated %}
                       <li><a href="{% url 'post_list' %}">Blog</a></li>
-                      <li><a href="{% url 'post_new' %}" >New Post</a></li>
-                      <li><a href="{% url 'post_draft_list' %}">Drafts</a></li>
                       <li><a href="{% url 'logout' %}" >Log out</a></li>
                       <li><a >Welcome: {{ user.username }}</a></li>
                       {% else %}
@@ -101,9 +99,7 @@
 
 <div id="section1" class="container-fluid">
         <div class="section1_page">
-          <div class="profile_section1">
-            <h1>Profile</h1>
-          </div>
+
 
           <div class="profile_2">
           <ul>

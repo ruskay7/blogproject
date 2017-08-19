@@ -106,6 +106,7 @@ font-family: 'PT Serif', serif;
 	-ms-animation: 20s linear 0s normal none infinite animate;
 	-o-animation: 20s linear 0s normal none infinite animate;
 	animation: 20s linear 0s normal none infinite animate;
+  background-size: cover;
   opacity: 1;
 
 }
@@ -146,42 +147,43 @@ font-family: 'PT Serif', serif;
 
 
 
-
+/*
 .profile_section1 {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   color: black;
 
-}
+}*/
 
 
-.profile_section1 h1 {
+/*.profile_section1 h1 {
   font-size: 4.5rem;
   text-align: center;
   position: relative;
   top:300px;
-}
+}*/
 
 
 .profile_2 ul li {
   list-style-type: none;
   position: relative;
-  max-width: 200px;
+  max-width: 30%;
   margin: 0 auto;
   padding-top:40px;
   color: black;
-  text-align: left;
-  right:260px;
-  top: 280px;
+  text-align: center;
+  right:25%;
+  top: 50%;
+  overflow:hidden;
 }
 
 .profile_2 h2 {
   font-size: 2.5em;
-  text-align: left;
+
 }
 .profile_2 p {
-  text-align: left;
+
   font-size: 1.4em;
 }
 
@@ -189,23 +191,23 @@ font-family: 'PT Serif', serif;
 .profile_3 li {
   list-style-type: none;
   position: relative;
-  max-width: 200px;
+  max-width: 30%;
   margin: 0 auto;
-
+text-align: center;
 padding-top:40px;
   color: black;
   text-align: left;
-  left:280px;
+  left:25%;
   bottom:320px
 
 }
 
 .profile_3 h2 {
-  font-size: 2.5em;
-  text-align: left;
+  font-size: 2.0em;
+
 }
 .profile_3 p {
-  text-align: left;
+
   font-size: 1.4em;
 }
 
@@ -213,7 +215,7 @@ padding-top:40px;
 
 .section1_page img{
  background-repeat: no-repeat;
- width:  300px;
+ width:  15%;
  display: block;
  margin: 0 auto;
 border-radius: 50%;
@@ -298,29 +300,32 @@ top:20px;
   color: black;
   list-style-type: none;
   font-size:0.8em;
-
+  float: left;
   position: relative;
 
-  max-width: 300px;
-  left:250px;
+  max-width: 20%x;
+  left:10%;
   top:180px;
 padding-right: 10px;
   box-shadow: 3px 3px 3px #a5eeff;
+  overflow:hidden;
+
 }
 
-#section3_id_right{
-  text-align: left;
+#section3_id_right li{
+  /*text-align: left;*/
   color: black;
   list-style-type: none;
   font-size:0.7em;
 
-
   position: relative;
-  right:250px;
-  bottom:15px;
-  max-width: 350px;
+  /*right:250px;*/
+  left:25%;
+  bottom:50px;
+  max-width: 25%;
 padding-right: 10px;
   box-shadow: 3px 3px 3px #a5eeff;
+  overflow:hidden;
 }
 
 #section3_id_center{
@@ -330,8 +335,9 @@ padding-right: 10px;
   font-size:0.6em;
   position: relative;
   top:190px;
-  max-width: 400px;
+  max-width: 20%;
   margin: 0 auto;
+
 }
 
 

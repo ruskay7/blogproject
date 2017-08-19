@@ -91,3 +91,6 @@ nav li:hover{
   background: transparent;
 
 }
+nav ul ul{
+  white-space: nowrap;
+}
