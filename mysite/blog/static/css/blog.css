@@ -140,8 +140,7 @@ overflow-wrap: break-word;
     position: relative;
     text-align: left;
     word-wrap: break-word;
-    display: flex;
-
+  
 }
 
 /*COLOR CHANGER*/
