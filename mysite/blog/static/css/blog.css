@@ -105,8 +105,7 @@ left: 100px;
   text-align: center;
   left: 100px;
   background: #E4EFF5;
-  padding-left: 50px;
-  padding-right: 50px;
+
 
 }
 .postdetaildiv p{
@@ -129,12 +128,12 @@ left: 100px;
   color: black;
 }
 
-.commentbackground {
+.postdetaildiv.commentbackground {
   border-bottom: 1px solid #a5eeff;
-    border-top: 1px solid #a5eeff;
+
     position: relative;
     text-align: left;
-    max width:500px;
+
 }
 
 /*COLOR CHANGER*/
