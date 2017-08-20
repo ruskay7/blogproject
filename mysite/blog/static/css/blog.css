@@ -110,6 +110,7 @@ left: 100px;
   width: 100%;
   border: 1px solid #a5eeff;
 overflow-wrap: break-word;
+word-wrap: break-word;
 
 }
 .postdetaildiv p{
@@ -134,9 +135,10 @@ overflow-wrap: break-word;
 
 .commentbackground {
   border-bottom: 1px solid #a5eeff;
-
+overflow-wrap: break-word;
     position: relative;
     text-align: left;
+    word-wrap: break-word;
 
 }
 
