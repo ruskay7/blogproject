@@ -129,11 +129,12 @@ left: 100px;
   color: black;
 }
 
-.commentbackground p{
+.commentbackground {
   border-bottom: 1px solid #a5eeff;
     border-top: 1px solid #a5eeff;
     position: relative;
     text-align: left;
+    max width:500px;
 }
 
 /*COLOR CHANGER*/
