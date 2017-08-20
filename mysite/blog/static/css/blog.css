@@ -28,9 +28,9 @@
   font-size: 5rem;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, white 0, #49B4DD 100%);;
+
   margin: 0 auto;
-  padding-top: 70px;
+  top: 10px;
   padding-bottom: 50px;
   position: relative;
   text-align: center;
@@ -42,22 +42,22 @@
   left: 100px;
   width: 100%;
   height: 100%;
-  padding-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  top:100px;
+
 }
 
 
-}
+
 body{
 
-    /*background: white; /* Old browsers */*/
-background: -moz-radial-gradient(circle at center,   white 0, #ABAAB0 100%); /* FF3.6+ */
-background: -webkit-radial-gradient(circle at center,   white 0, #ABAAB0 100%); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(circle at center,   white 0, #ABAAB0 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(circle at center,   white 0, #ABAAB0 100%); /* Opera 12+ */
-background: -ms-radial-gradient(circle at center,   white 0, #ABAAB0 100%); /* IE10+ */
-background: radial-gradient(circle at center,   white 0, #ABAAB0 100%); /* W3C */
+    /*background: white; /* Old browsers */
+
+background: -moz-radial-gradient(circle at center, black 0, #DE6559 100%); /* FF3.6+ */
+background: -webkit-radial-gradient(circle at center, black 0, #DE6559 100%); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(circle at center, black 0, #DE6559 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(circle at center, black 0, #DE6559 100%); /* Opera 12+ */
+background: -ms-radial-gradient(circle at center, black 0, #DE6559 100%); /* IE10+ */
+background: radial-radial-gradient(circle at center, black 0, #DE6559 100%); /* W3C */
 background: no-repeat;
 
     width: 100%;
