@@ -111,6 +111,7 @@ left: 100px;
   border: 1px solid #a5eeff;
 overflow-wrap: break-word;
 word-wrap: break-word;
+display: flex;
 
 }
 .postdetaildiv p{
@@ -139,6 +140,7 @@ overflow-wrap: break-word;
     position: relative;
     text-align: left;
     word-wrap: break-word;
+    display: flex;
 
 }
 
