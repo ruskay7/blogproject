@@ -129,7 +129,7 @@ left: 100px;
   color: black;
 }
 
-.commentbackground{
+.commentbackground p{
   border-bottom: 1px solid #a5eeff;
     border-top: 1px solid #a5eeff;
     position: relative;
