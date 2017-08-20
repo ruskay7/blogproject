@@ -114,6 +114,11 @@ left: 100px;
 
 }
 
+.postdetaildiv a{
+  position: relative;
+  left:10px;
+}
+
 .postul a{
 
   color: black;
