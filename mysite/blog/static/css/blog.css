@@ -30,11 +30,11 @@
   height: 100%;
 
   margin: 0 auto;
-  top: 10px;
+  top: 100px;
   padding-bottom: 50px;
   position: relative;
-  text-align: center;
-  left: 100px;
+  text-align: left;
+
 }
 .latestpostheading{
   position: relative;
@@ -57,7 +57,7 @@ background: -webkit-radial-gradient(circle at center, black 0, #DE6559 100%); /*
 background: -webkit-radial-gradient(circle at center, black 0, #DE6559 100%); /* Chrome10+,Safari5.1+ */
 background: -o-radial-gradient(circle at center, black 0, #DE6559 100%); /* Opera 12+ */
 background: -ms-radial-gradient(circle at center, black 0, #DE6559 100%); /* IE10+ */
-background: radial-radial-gradient(circle at center, black 0, #DE6559 100%); /* W3C */
+background: radial-gradient(circle at center, black 0, #DE6559 100%); /* W3C */
 background: no-repeat;
 
     width: 100%;
