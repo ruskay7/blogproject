@@ -24,18 +24,27 @@
 
 }
 .listbanner{
-  box-shadow: 2px 1px 1px 2px #a5eeff;
+
   font-size: 5rem;
   width: 100%;
   height: 100%;
-  background: inherit;
+  background: radial-gradient(circle at center, white 0, #49B4DD 100%);;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 50px;
   position: relative;
   text-align: center;
-
   left: 100px;
+}
+.latestpostheading{
+  position: relative;
+  text-align: center;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
