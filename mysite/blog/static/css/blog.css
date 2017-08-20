@@ -105,7 +105,8 @@ left: 100px;
   text-align: center;
   left: 100px;
   background: #E4EFF5;
-
+  padding-left: 50px;
+  padding-right: 50px;
 
 }
 .postdetaildiv p{
@@ -128,13 +129,13 @@ left: 100px;
   color: black;
 }
 
-.postdetaildiv.commentbackground {
+/*.commentbackground {
   border-bottom: 1px solid #a5eeff;
 
     position: relative;
     text-align: left;
 
-}
+}*/
 
 /*COLOR CHANGER*/
 /*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
