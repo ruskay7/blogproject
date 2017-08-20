@@ -103,7 +103,7 @@ font-family: 'PT Serif', serif;
   height:100%;
 font-family: 'PT Serif', serif;
 	font-size:12px;
-    background: #2980b9 url('https://dl.dropboxusercontent.com/s/dhbmdadfog9aioz/nyc.jpg?dl=0') repeat 0 0;
+  background: #2980b9 url('https://dl.dropboxusercontent.com/s/dhbmdadfog9aioz/nyc.jpg?dl=0') repeat 0 0;
 	-webkit-animation: 20s linear 0s normal none infinite animate;
 	-moz-animation: 20s linear 0s normal none infinite animate;
 	-ms-animation: 20s linear 0s normal none infinite animate;
@@ -150,91 +150,81 @@ font-family: 'PT Serif', serif;
 
 
 
-/*
-.profile_section1 {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  color: black;
-
-}*/
-
-
-/*.profile_section1 h1 {
-  font-size: 4.5rem;
-  text-align: center;
-  position: relative;
-  top:300px;
-}*/
 
 
 .profile_2 ul li {
   list-style-type: none;
   position: relative;
-  max-width: 30%;
+  max-width: 400px;
+
   margin: 0 auto;
-  padding-top:40px;
+
   color: black;
   text-align: center;
-  right:25%;
-  top: 50%;
-  overflow:hidden;
+  left:-450px;
+  top: 100px;
+
 }
 
 .profile_2 h2 {
-  font-size: 2.5em;
+  font-size: 1.8rem;
 
 }
 .profile_2 p {
 
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 /*profile3_details*/
 .profile_3 li {
   list-style-type: none;
   position: relative;
-  max-width: 30%;
+  max-width: 200px;
   margin: 0 auto;
-text-align: center;
-padding-top:40px;
+
+
   color: black;
   text-align: left;
-  left:25%;
-  bottom:320px
+left:500px;
+
+  bottom: 260px;
 
 }
 
 .profile_3 h2 {
-  font-size: 2.0em;
+  font-size: 2.2rem;
 
 }
 .profile_3 p {
 
-  font-size: 1.4em;
+  font-size: 1.9rem;
 }
 
 
 
 .section1_page img{
  background-repeat: no-repeat;
- width:  15%;
+ width:  35%;
+ max-width: 280px;
  display: block;
  margin: 0 auto;
+ position: relative;
+ background-size: contain;
 border-radius: 50%;
 border-top-left-radius: 50%;
 border-top-right-radius: 50%;
 border-bottom-right-radius: 50%;
 border-bottom-left-radius: 50%;
+
 }
 
 
 
 
 
-.profile_section1 {
+/*.profile_section1 {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   color: black;
 }
@@ -245,7 +235,7 @@ border-bottom-left-radius: 50%;
   text-align: center;
   position: relative;
   top:300px;
-}
+}*/
 
 
 .profile_2 ul li {
@@ -277,7 +267,8 @@ border-bottom-left-radius: 50%;
   padding-bottom: 0;
 	font-family: 'PT Serif', serif;
 	font-size:25px;
-  background: linear-gradient(to bottom right,#88D0FF,white);
+
+  background: radial-gradient(circle at center, white 0, #FF8334 100%);
   background-size: cover;
   position: relative;
   opacity: 1;
@@ -310,7 +301,7 @@ top:20px;
   left:10%;
   top:180px;
 padding-right: 10px;
-  box-shadow: 3px 3px 3px #a5eeff;
+  /*box-shadow: 3px 3px 3px #a5eeff;*/
   overflow:hidden;
 
 }
@@ -327,7 +318,7 @@ padding-right: 10px;
   bottom:50px;
   max-width: 25%;
 padding-right: 10px;
-  box-shadow: 3px 3px 3px #a5eeff;
+  /*box-shadow: 3px 3px 3px #a5eeff;*/
   overflow:hidden;
 }
 
@@ -347,7 +338,7 @@ padding-right: 10px;
 /*contact section*/
 #section42 {
 /*background: #9FB8FF;*/
-background: #9CC7E5;
+background: radial-gradient(circle at center,   white 0, #16254A 100%);
 
   background-size: cover;
   width: 100%;
@@ -454,12 +445,12 @@ footer{
   top: 200px;
   width: 100%;
   height:100%;
-  background: #9CC7E5;
+  background: inherit;
 
 }
 .social-btns .btn {
   display: inline-block;
-  background-color: #9CC7E5;
+  background-color: transparent;
   width: 50px;
   height: 50px;
   line-height: 90px;
@@ -468,6 +459,7 @@ footer{
   position: relative;
   overflow: hidden;
   border-radius: 28%;
+
   /*box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);*/
   opacity: 1;
 

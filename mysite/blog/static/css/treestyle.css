@@ -25,7 +25,7 @@ margin:0;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background: #fa8a29;
+  background: #144E42;
   padding: 0px 0;
   color: white;
 }
@@ -51,13 +51,13 @@ margin:0;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul{
-  padding: 50px  0;
+  padding:  0;
 }
 
 .bg-img{
   width: 100%;
   height: 100%;
-  background: #F2F5FF;
+  background: radial-gradient(circle at center, white 0,  #144E42 100%);
   background-size: cover;
 
 }
@@ -70,7 +70,7 @@ margin:0;
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background:#fa8a29;
+  background:#144E42;
   font-size: 1.2rem;
 }
 /*circle before merge*/
@@ -83,16 +83,16 @@ margin:0;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #fa8a29;
+  background: white;
 
 }
 /*Box*/
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 25%;
+  width: 400px;
   padding: 15px;
-  background: #fa8a29;
+  background: #144E42;
 }
 
 .timeline ul li div::before {
@@ -102,7 +102,6 @@ margin:0;
   width: 0;
   height: 0;
   border-style: solid;
-  width: 25%;
 }
 
 .timeline ul li:nth-child(odd) div {
@@ -112,7 +111,7 @@ margin:0;
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #fa8a29 transparent transparent;
+  border-color: transparent #144E42 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -122,7 +121,7 @@ margin:0;
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #fa8a29;
+  border-color: transparent transparent transparent #144E42;
 }
 
 time {
@@ -141,7 +140,7 @@ time {
 }
 /*circle color afte rmerge*/
 .timeline ul li.in-view::after {
-  background:#404040;
+  background:#144E42;
 
 }
 
@@ -192,6 +191,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #fa8a29 transparent transparent;
+    border-color: transparent #F45B69 transparent transparent;
   }
 }
