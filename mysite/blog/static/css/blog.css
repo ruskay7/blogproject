@@ -134,7 +134,7 @@ display: flex;
   color: black;
 }
 
-.commentbackground {
+/*.commentbackground {
   border-bottom: 1px solid #a5eeff;
 overflow-wrap: break-word;
     position: relative;
@@ -142,7 +142,7 @@ overflow-wrap: break-word;
     word-wrap: break-word;
     display: flex;
 
-}
+}*/
 
 /*COLOR CHANGER*/
 /*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
