@@ -115,8 +115,12 @@ top:90px;
 .postul a{
 
   color: black;
-
-
+}
+.commenthead{
+  padding-top: 100px;
+  position: relative;
+  
+}
 
 /*COLOR CHANGER*/
 /*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
