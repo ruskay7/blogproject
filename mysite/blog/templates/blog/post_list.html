@@ -5,7 +5,12 @@
 
 
 <div class="centerstage">
+  <div class="listbanner">
+    <h1>Welcome to my blog</h1>
+    <p>Hello. I'm happy that you're here. I write about about tech, football, food, animes, Tv-shows and the things I find interesting in life</p>
+    
 
+  </div>
 
     {% for post in post_list %}
 
@@ -16,7 +21,7 @@
               <div class="date">
                   <p>Published on: {{ post.published_date|date:"D M Y"}}</p>
               </div>
-              <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approve_comments.count }}</a>
+              <a href="{% url 'post_detail' pk=post.pk %}"><i class="fa fa-comment" aria-hidden="true"></i> Comments: {{ post.approve_comments.count }}</a>
               </div>
               </li>
             </ol>
