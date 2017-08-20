@@ -40,10 +40,12 @@
                   <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
                   <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"></span></a>
               {% endif %}
+              <div class="commentbackground">
+
 
           <p>{{ comment.text|safe|linebreaks }}</p>
           <p>Posted by: <strong>{{ comment.author }}</strong></p>
-
+          </div>
       {% endif %}
   {% empty %}
       <p id="nocommentsposted"><i class="fa fa-comment" aria-hidden="true"></i> No comments posted.</p>

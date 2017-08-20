@@ -127,7 +127,11 @@ left: 100px;
   padding-top: 100px;
   position: relative;
   color: black;
+}
 
+.commentbackground{
+  border-bottom: 1px solid #a5eeff;
+    border-top: 1px solid #a5eeff;
 }
 
 /*COLOR CHANGER*/
